@@ -1,0 +1,68 @@
+/* General header styling */
+.header {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px ;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+  }
+  /* Styling for the logo */
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Navigation menu styling */
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navigation ul li {
+    margin: 0 15px;
+  }
+  
+  .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navigation ul li a:hover {
+    color: #ddd; /* Change color on hover */
+  }
+  
+  /* Responsive design: Stack the logo and nav links on smaller screens */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navigation ul {
+      flex-direction: column;
+    }
+  
+    .navigation ul li {
+      margin: 5px 0;
+    }
+  }
+  

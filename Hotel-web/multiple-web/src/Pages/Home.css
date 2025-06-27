@@ -1,0 +1,29 @@
+.home {
+    background-image: url(); /* Replace with your image URL */
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .home-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Dark background overlay for better text visibility */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .home h2 {
+    font-size: 3rem;
+  }
+  
+  .home p {
+    font-size: 1.5rem;
+  }
+  
+  
